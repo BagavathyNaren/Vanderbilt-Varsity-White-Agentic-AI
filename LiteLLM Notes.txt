@@ -1,0 +1,7 @@
+LiteLLM, a library that provides a unified interface for interacting with over 100 different LLMs 
+including GPT-4, Claude, Gemini, and many others. By using a single interface, we can 
+easily switch between different models without changing our code, making it perfect for testing 
+different LLMs or having fallback options in production. This will also allow us to make our agent 
+reusable across LLMs — although we may need to do some prompt engineering to make it work with a new LLM.
+
+Use python-dotenv for easier API key management
